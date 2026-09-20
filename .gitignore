@@ -1,0 +1,19 @@
+# Runtime data created by the server (accounts, orders, item catalogue)
+users.out
+items.out
+
+# Compiled output
+out/
+*.class
+
+# IDE / build folders
+nbproject/private/
+build/
+dist/
+.idea/
+*.iml
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
