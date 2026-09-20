@@ -42,9 +42,9 @@ Built as the final project for the *Programming of Networks Protocols* course (C
 
 Communication: menu choices are sent as integers (`DataOutputStream`), while prompts, credentials, and messages are exchanged as text lines (`PrintWriter` / `BufferedReader`) over the same socket.
 
-The full class diagram is in [`docs/UML.png`](docs/UML.png), and a short write-up is in [`docs/Project_Report.docx`](docs/Project_Report.docx).
+The full class diagram is in [`UML.png`](UML.png), and a short write-up is in [`Project_Report.docx`](Project_Report.docx).
 
-![UML class diagram](docs/UML.png)
+![UML class diagram](UML.png)
 
 ## Getting started
 
@@ -55,7 +55,7 @@ git clone https://github.com/omaralnajjar23/multi-client-server-system.git
 cd multi-client-server-system
 
 # compile
-javac -d out src/*.java
+javac -d out *.java
 
 # terminal 1: start the server
 java -cp out Server
@@ -73,14 +73,12 @@ Notes:
 
 ```
 multi-client-server-system/
-├── src/
-│   ├── Server.java      # Server, multiClients, User, Admin, Customer
-│   ├── Client.java
-│   ├── Item.java
-│   └── Order.java
-├── docs/
-│   ├── UML.png
-│   └── Project_Report.docx
+├── Server.java          # Server, multiClients, User, Admin, Customer
+├── Client.java
+├── Item.java
+├── Order.java
+├── UML.png              # class diagram
+├── Project_Report.docx  # short project report
 ├── .gitignore
 └── README.md
 ```
